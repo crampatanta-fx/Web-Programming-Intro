@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Laila:wght@600&family=Poppins:ital,wght@0,200;0,500;0,600;0,800;1,200;1,500;1,600;1,800&display=swap">
+    <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2Get2</title>
+</head>
+
+<body>
+    <header>
+        <div id="top-bar">
+            <div class="message-top">
+                <div class="authenticated" id="welcome-message"></div>
+                <div class="authenticated little-message" onclick="logout()">logout</div>
+            </div>
+            <div id="buttons-top">
+                <a class="not-authenticated buttons-top" onclick="goLogin()">Login</a>
+                <a class="not-authenticated buttons-top" onclick="goSignup()">Sign up</a>
+            </div>
+            <div id="title"> 2Get2 - Sharing the world with you</div>
+        </div>
+        <div id="menu-bar">
+            <ul>
+                <li onclick="listProperties('all')">List Properties</li>
+            </ul>
+            <ul>
+                <li class="menu-bar">Contact Us</li>
+            </ul>
+            <ul>
+                <li class="menu-bar">Help</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div id="container"></div>
+        <div><br><br><br><br><br></div>
+    </main>
+    <footer>
+    </div>
+    <div>
+        <p>Felix Crampatanta</p>
+        <p>Leonardo Castro</p>
+        <p>Sutham Hengsuwan</p>
+        <p>Wagner Ferreira</p>
+    </div>
+    <div>
+       <p>
+           SODV1201:Introduction to Web Programing - Final Project
+       </p>
+       <p>
+           August 2023
+       </p>
+    </footer>
+</body>
+
+</html>
